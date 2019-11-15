@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+.flex {
+  display: flex;
+}
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.wrap-item {
+  flex-direction: column;
+}
+.cell {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  font-size: 150px;
+  transition: all linear 0.3s;
+  justify-content: center;
+  align-content: center;
+}
+.cell:hover {
+  background-color: #ccc;
+}
+#message {
+  height: 35px;
+  font-size: 30px;
+  text-align: center;
+  padding-right: 35px;
+}
+.hide-sick-block {
+  justify-content: center;
+}
+.btn {
+  width: 200px;
+  height: 35px;
+  background-color: white;
+  box-shadow: none;
+  border: 1px solid black;
+  margin: 10px;
+  transition: all linear 0.3s;
+}
+.btn:hover {
+  background-color: #ccc;
+}

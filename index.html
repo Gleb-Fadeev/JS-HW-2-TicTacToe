@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="flex wrapper">
+      <div class="flex wrap-item">
+        <div id="flex game-field">
+          <div class="flex line">
+            <div class="flex cell" data-ceil="1"></div>
+            <div class="flex cell" data-ceil="2"></div>
+            <div class="flex cell" data-ceil="3"></div>
+          </div>
+          <div class="flex line">
+            <div class="flex cell" data-ceil="4"></div>
+            <div class="flex cell" data-ceil="5"></div>
+            <div class="flex cell" data-ceil="6"></div>
+          </div>
+          <div class="flex line">
+            <div class="flex cell" data-ceil="7"></div>
+            <div class="flex cell" data-ceil="8"></div>
+            <div class="flex cell" data-ceil="9"></div>
+          </div>
+        </div>
+        <div class="flex hide-sick-block">
+          <div class="flex wrap-item">
+            <span id="message"></span>
+            <button class="btn" id="pvp">Играть в двоем</button>
+            <button class="btn" id="reset">Рестарт</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
